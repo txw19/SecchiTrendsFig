@@ -1,4 +1,7 @@
 
+# Read in BUGS output to recreate plots without running WinBUGS
+out <- readRDS("secchi.bugs.rds")
+
 library(reshape2)
 library(R2WinBUGS)
 #####Get Secchi TS Data#######
